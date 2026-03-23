@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TomBurk - Butiken för de bästa burkarna</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./img/can-icon.png">
+
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <div class="header-logo">
+                <a href="./">
+                    <picture class="logo">
+                        <source srcset="img/tomburk-logo.webp" type="image/webp">
+                        <img src="img/tomburk-logo.png" alt="Tomburk Logotyp">
+                    </picture>
+                </a>
+            </div>
+
+            <div class="menu" id="menu">
+                <ul class="menu-inner">
+                    <li><a href="./burkar.html" class="menu-link">Våra Burkar</a></li>
+                    <li><a href="./om-oss.html" class="menu-link">Om Oss</a></li>
+                    <li><a href="./kundvagn.html" class="btn btn-outline">Kundvagn</a></li>
+                </ul>
+            </div>
+
+            <div class="burger" id="burger">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+
+        <section class="section">
+            <div class="container full first" style="margin-bottom:5rem;">
+                <div class="f2-intro">
+                    <h1 class="hero-heading">Kundvagn</h1>
+                    <p class="hero-subtitle">Slutför ditt köp här</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cart">
+
+            <div class="container full cart-container">
+
+                <div class="cart-items">
+
+                    <div class="cart-item">
+                        <picture>
+                            <source srcset="img/p4-1.webp" type="image/webp">
+                            <img src="img/p4-1.jpg" alt="Tacosås glasburk">
+                        </picture>
+                        <div class="item-info">
+                            <h3>Tacosås</h3>
+                            <p>100 kr</p>
+                        </div>
+                        <input type="number" value="1" min="1">
+                        <p class="item-total">100 kr</p>
+                        <button class="remove">✕</button>
+                    </div>
+
+                    <div class="cart-item">
+                        <picture>
+                            <source srcset="img/p2-1.webp" type="image/webp">
+                            <img src="img/p2-1.jpg" alt="Sweet & Sour glasburk">
+                        </picture>
+                        <div class="item-info">
+                            <h3>Sweet & Sour</h3>
+                            <p>100 kr</p>
+                        </div>
+                        <input type="number" value="1" min="1">
+                        <p class="item-total">100 kr</p>
+                        <button class="remove">✕</button>
+                    </div>
+
+                </div>
+
+                <div class="cart-summary">
+
+                    <h2>Sammanfattning</h2>
+
+                    <div class="summary-row">
+                        <span>Produkter</span>
+                        <span>200 kr</span>
+                    </div>
+
+                    <div class="summary-row">
+                        <span>Leverans</span>
+                        <span>49 kr</span>
+                    </div>
+
+                    <div class="summary-row total">
+                        <span>Totalt</span>
+                        <span>249 kr</span>
+                    </div>
+
+                    <button class="btn btn-outline btn-checkout">Slutför köp</button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+    <!-- footer section -->
+    <aside class="section bg-earth footerSection">
+        <div class="container">
+            <div class="footerGrid">
+                <div class="footerItem">
+                    <div>
+                        <h3 class="footerHeading">TomBurk AB</h3>
+                        <p>Alltid redo att möta dagens utmaningar, så länge det gäller tomma burkar.</p>
+                        <p>Burkgatan 1, storstad, 123 45</p>
+
+                    </div>
+                </div>
+                <div class="footerItem">
+                    <div>
+                        <h3 class="footerHeading">Länkar</h3>
+                        <ul class="footerNavList">
+                            <li><a href="./burkar.html">Våra Burkar</a></li>
+                            <li><a href="./om-oss.html">Om Oss</a></li>
+                            <li><a href="./kundvagn.html">Kundvagn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <!-- footer bar -->
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="copyRightBar">
+                <p>Coppyright 2025 by <a href="./">TomBurk AB</a> - Alla burkigheter förbehållna</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

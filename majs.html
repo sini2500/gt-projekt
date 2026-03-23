@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TomBurk - Butiken för de bästa burkarna</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./img/can-icon.png">
+
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <div class="header-logo">
+                <a href="./">
+                    <picture class="logo">
+                        <source srcset="img/tomburk-logo.webp" type="image/webp">
+                        <img src="img/tomburk-logo.png" alt="Tomburk Logotyp">
+                    </picture>
+                </a>
+            </div>
+
+            <div class="menu" id="menu">
+                <ul class="menu-inner">
+                    <li><a href="./burkar.html" class="menu-link">Våra Burkar</a></li>
+                    <li><a href="./om-oss.html" class="menu-link">Om Oss</a></li>
+                    <li><a href="./kundvagn.html" class="btn btn-outline">Kundvagn</a></li>
+                </ul>
+            </div>
+
+            <div class="burger" id="burger">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+
+        <section class="section  product-page">
+
+            <div class="product-container container first">
+
+                 <div class="product-gallery">
+                    <div class="main-image">
+                        <picture>
+                            <source srcset="img/p6-1.webp" type="image/webp">
+                            <img id="mainImage" src="img/p6-1.jpg" alt="Majs konservburk">
+                        </picture>
+                    </div>
+
+                    <div class="thumbnail-list">
+                        <picture>
+                            <source srcset="img/p6-1.webp" type="image/webp">
+                            <img src="img/p6-1.jpg" alt="Majs konservburk">
+                        </picture>
+                        <picture>
+                            <source srcset="img/p6-2.webp" type="image/webp">
+                            <img src="img/p6-2.jpg" alt="Majs konservburk 2">
+                        </picture>
+                        <picture>
+                            <source srcset="img/p6-3.webp" type="image/webp">
+                            <img src="img/p6-3.jpg" alt="Majs konservburk 3">
+                        </picture>
+                        <picture>
+                            <source srcset="img/p6-4.webp" type="image/webp">
+                            <img src="img/p6-4.jpg" alt="Majs konservburk 4">
+                        </picture>
+                        <picture>
+                            <source srcset="img/p6-5.webp" type="image/webp">
+                            <img src="img/p6-5.jpg" alt="Majs konservburk 5">
+                        </picture>
+                    </div>
+                </div>
+
+                <div class="product-info">
+
+                    <h1 class="product-title f1-heading">Majs</h1>
+
+                    <p class="price">50kr</p>
+
+                    <p class="f1-intro-text">Konservburk i fint skick. Orange färg utan brister. Orginal kapsyl och etikett.<br>OBS: denna produkt är oöppnad, nedsatt pris!</p>
+
+                    <p class="stock">29 i lager</p>
+
+                    <div class="purchase">
+                        <input type="number" value="1" min="1">
+                        <button class="btn btn-outline btn-add">Lägg till</button>
+                    </div>
+
+                    <div class="product-meta">
+                        <p><strong>SKU:</strong> 6</p>
+                        <p><strong>Kategori:</strong> konservburk</p>
+                        <p><strong>Märke:</strong> ICA</p>
+                        <p><strong>Taggar:</strong> Metall, Konserv</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="section ">
+            <div class="container">
+                <h2 class="f1-heading">Beskrivning</h2>
+                <p class="f1-intro-text">Längre beskrivning kan hamna här.</p>
+            </div>
+        </section>
+
+        <section class="section ">
+            <div class="container products-list">
+
+                <h2 class="f1-heading">Liknande produkter</h2>
+
+                <div class="f2-products">
+                    <a href="./sweet-sour.html" class="f2-product"> 
+                        <picture>
+                            <source srcset="img/p2-1.webp" type="image/webp">
+                            <img src="img/p2-1.jpg" alt="Sweet & Sour glasburk">
+                        </picture>
+                        <h4>Sweet & Sour</h4>
+                        <p>100kr</p>
+                    </a>
+                    <a href="./tiki-masala.html" class="f2-product"> 
+                        <picture>
+                            <source srcset="img/p3-1.webp" type="image/webp">
+                            <img src="img/p3-1.jpg" alt="Tiki Masala glasburk">
+                        </picture>
+                        <h4>Tiki Masala</h4>
+                        <p>100kr</p>
+                    </a>
+                    <a href="./tacosås.html" class="f2-product"> 
+                        <picture>
+                            <source srcset="img/p4-1.webp" type="image/webp">
+                            <img src="img/p4-1.jpg" alt="Tacosås glasburk">
+                        </picture>
+                        <h4>Tacosås</h4>
+                        <p>100kr</p>
+                    </a>
+                    <a href="./chunky-salsa.html" class="f2-product"> 
+                        <picture>
+                            <source srcset="img/p5-1.webp" type="image/webp">
+                            <img src="img/p5-1.jpg" alt="Chunky Salsa glasburk">
+                        </picture>
+                        <h4>Chunky Salsa</h4>
+                        <p>100kr</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- footer section -->
+    <aside class="section bg-earth footerSection">
+        <div class="container">
+            <div class="footerGrid">
+                <div class="footerItem">
+                    <div>
+                        <h3 class="footerHeading">TomBurk AB</h3>
+                        <p>Alltid redo att möta dagens utmaningar, så länge det gäller tomma burkar.</p>
+                        <p>Burkgatan 1, storstad, 123 45</p>
+
+                    </div>
+                </div>
+                <div class="footerItem">
+                    <div>
+                        <h3 class="footerHeading">Länkar</h3>
+                        <ul class="footerNavList">
+                            <li><a href="./burkar.html">Våra Burkar</a></li>
+                            <li><a href="./om-oss.html">Om Oss</a></li>
+                            <li><a href="./kundvagn.html">Kundvagn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <!-- footer bar -->
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="copyRightBar">
+                <p>Coppyright 2025 by <a href="./">TomBurk AB</a> - Alla burkigheter förbehållna</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
