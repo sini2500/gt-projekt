@@ -1,6 +1,6 @@
 ## DT200G - grafisk teknik
 
-Det här är ett slutprojekt för kursen grafisk teknik, HT 2026.
+Det här är ett slutprojekt för kursen grafisk teknik, HT 2025.
 
 Projektet går ut på att skapa en fiktiv webbuttik och producera media i form av bilder och video.
 
