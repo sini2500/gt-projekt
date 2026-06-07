@@ -9,3 +9,6 @@ Webbplatsen är publicerad på Netlify: https://gt-projekt-sini2500.netlify.app/
 En projektrapport finns i detta repo: projektrapport.pdf.
 
 Figma-skisser finna på denna url: https://www.figma.com/design/bhn429bvadv74nterUR3WY/GT-Projekt---Tomburk
+
+---
+
